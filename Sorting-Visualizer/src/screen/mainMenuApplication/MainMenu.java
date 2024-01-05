@@ -23,6 +23,11 @@ public class MainMenu extends JFrame {
     }
 
     private void initialize() {
+        int topPadding = 10;
+        int leftPadding = 0;
+        int bottomPadding = 10;
+        int rightPadding = 0;
+
         Container container = getContentPane();
         container.setLayout(new BorderLayout());
         container.setBackground(ColorManager.BACKGROUND);
@@ -32,10 +37,6 @@ public class MainMenu extends JFrame {
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         titleLabel.setFont(titleLabel.getFont().deriveFont(Font.BOLD, 50f));
         titleLabel.setForeground(ColorManager.TEXT);
-        int topPadding = 10;
-        int leftPadding = 0;
-        int bottomPadding = 10;
-        int rightPadding = 0;
         titleLabel.setBorder(new EmptyBorder(topPadding, leftPadding, bottomPadding, rightPadding));
 
         //add sort button
@@ -62,7 +63,11 @@ public class MainMenu extends JFrame {
         quitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.exit(0);
+                int input = JOptionPane.showConfirmDialog(null, "Do you really want to exit ?", "Quit", 2);
+                // 0=yes, 1=cancel
+                if(input==0) {
+                    System.exit(0);
+                }
             }
         });
 
@@ -96,17 +101,30 @@ public class MainMenu extends JFrame {
 
         // Thêm JPanel vào khu vực Center của Container
         container.add(buttonPanel, BorderLayout.CENTER);
-
-
     }
 
     private static void showHelpDialog() {
-        String helpMessage = "Welcome to the application!\n\n" +
-                "Instructions:\n" +
-                "1. Do something...\n" +
-                "2. Do something else...\n" +
-                "3. Enjoy using the application!";
-
+        String helpMessage = "Sorting Alogorithm is a basic concept that every "
+                + "programmer should have known.\n \n "
+                + "There are a lot of sorting algorithms, "
+                + "but to be suitable with our project, we only focus on 3 algorithms: \n"
+                + "     + Merge Sort\n"
+                + "     + Counting Sort\n"
+                + "     + Radix Sort\n"
+                + "In addition, to diversify the algorithms, we have visualized two more algorithms: \n"
+                + "     + Bubble sort\n"
+                + "     + Selection sort\n\n"
+                + "This application invented aiming to the purpose of visualizing "
+                + "these alogrithms in a colorful way to help "
+                + "user understand this concept easier\nand meet our class "
+                + "project needs.\n \n"
+                + "Without loss of generality, we assume that we will sort only Integers, "
+                + "not necessarily distinct, in non-decreasing order in this visualization.\n\n"
+                + "Everything you need is:\n "
+                + "1.Create random array by the leftside button\n "
+                + "2.Choosing 1 of 5 algorithms in the blocks to start your journey "
+                + "and view it visualizes, the explanation will be demonstrate on the right side.\n\n"
+                + "Thank you!";
         JOptionPane.showMessageDialog(null, helpMessage, "Help", JOptionPane.INFORMATION_MESSAGE);
     }
 
