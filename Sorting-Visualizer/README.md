@@ -41,10 +41,12 @@ array. In the scope of the software, the application will explain three sorting 
 ---
 
 ### Project video demo
+https://github.com/lpnizmeee/OOP-prj-test/assets/105842235/a978fd41-8554-4b06-9e13-078390415655
 
-https://user-images.githubusercontent.com/86721208/178778154-f08f31b3-c1fd-44ce-ae3a-227cafb80182.mp4
 
 ---
+
+
 ### Inspiration
 1. VisualGO: https://visualgo.net/en
 2. GeeksforGeeks :
