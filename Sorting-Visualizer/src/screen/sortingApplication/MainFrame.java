@@ -30,16 +30,6 @@ public class MainFrame extends JFrame implements PropertyChangeListener,
 	   ChangeListener, Visualizer.SortedListener,
 	   ButtonPanel.SortButtonListener, MyCanvas.VisualizerProvider {
 	public static final long serialVersionUID = 10L;
-
-//	public static void main(String[] args)
-//	{
-//		EventQueue.invokeLater(new Runnable() {
-//			public void run() {
-//				new screen.sortingApplication.MainFrame(mainMenu).setVisible(true);
-//			}
-//		});
-//	}
-
 	private static final int WIDTH = 1280, HEIGHT = 800;
 	private static final int CAPACITY = 50, FPS = 100;
 	private JPanel mainPanel, inputPanel, sliderPanel, inforPanel;
@@ -225,12 +215,6 @@ public class MainFrame extends JFrame implements PropertyChangeListener,
 			case 0:  // create button
 				visualizer.createRandomArray(canvas.getWidth(), canvas.getHeight());
 				break;
-//			case 1:  // bubble button
-//				visualizer.bubbleSort();
-//				break;
-//			case 2:  // selection button
-//				visualizer.selectionSort();
-//				break;
 			case 1:  // radix button
 				visualizer.radixSort();
 				break;
