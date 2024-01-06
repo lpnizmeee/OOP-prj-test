@@ -27,8 +27,6 @@ public class ButtonPanel extends JPanel
 			buttons[i] = new JLabel();
 
 		initButtons(buttons[0], "create_button", 0);
-//		initButtons(buttons[1], "bubble_button", 1);
-//		initButtons(buttons[2], "selection_button", 2);
 		initButtons(buttons[1], "radix_button", 1);
 		initButtons(buttons[2], "counting_button", 2);
 		initButtons(buttons[3], "merge_button", 3);

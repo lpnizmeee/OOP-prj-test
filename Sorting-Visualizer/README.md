@@ -8,35 +8,30 @@ array. In the scope of the software, the application will explain three sorting 
 ### Assignment of members
 
 #### 1. Trần Thị Loan - 20215080 (Email: loan.tt215080@sis.hust.edu.vn) (L)
-- Package [`sourcecode/src/test`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/test)
-- Package [`sourcecode/src/visualso/sorting`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/sorting)
-- Class [`sourcecode/src/visualso/util/ArrayUtils.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/util/ArrayUtils.java)
-- Diagrams [`design`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/design)
+- Package [`src/buttons`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/test)
+- Package [`src/screen/sortingApplication/button`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/sorting)
+- Package [`src/screen/sortingApplication/color`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/sorting)
+- Package [`src/screen/sortingApplication/canvas`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/sorting)
+- Class [`src/sorting/MergeSort.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/util/ArrayUtils.java)
+- Diagrams [`Design`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/design)
 - *Report writer*
-- *Pull request feedback: Assess whether coding following the agreed OO schema and conventions.*
 
 #### 2. Lê Phương Nam - 20210628 (Email: nam.lp210628@sis.hust.edu.vn)
-- Package [`sourcecode/src/visualso/view`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/view) (exclude [`HomeScreen.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/view/HomeScreen.java))
-- Package [`sourcecode/src/visualso/controller`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/controller) (exclude [`HomeController.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/controller/HomeController.java))
-- Package [`sourcecode/src/visualso/listener`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/listener) (exclude [`SortListener.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/listener/SortListener.java))
-- Class [`sourcecode/src/visualso/util/ColorUtils.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/util/ColorUtils.java)
+- Package [`src/screen/sortingApplication/visualizer`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/sorting)
+- Class [`src/sorting/Sort.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/util/ColorUtils.java)
+- Class [`src/screen/sortingApplication/MainFrame.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/util/ColorUtils.java)
 - README.md [`README.md`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/README.md) (introduction video)
-- *Pull request feedback: Assess whether new additions have conflicts with the old ones. (e.g. package class diagram is different from general ones)*
 
 #### 3. Vũ Đình Linh - 20194606 (Email: linh.vd194606@sis.hust.edu.vn)
-- Package [`sourcecode/src/visualso/component`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/component) (50%)
-- Class [`sourcecode/src/visualso/view/HomeScreen.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/view/HomeScreen.java)
-- Class [`sourcecode/src/visualso/controller/HomeController.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/controller/HomeController.java)
-- Class [`sourcecode/src/visualso/listener/SortListener.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/listener/SortListener.java)
-- *Report writer*
-- *Pull request feedback: Run developing programs and perform actions to test and report uncovered issues.*
+- Package [`src/screen/sortingApplication/bars`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/component)
+- Package [`src/screen/sortingApplication/formatter`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/component)
+- Class [`src/sorting/CountingSort.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/view/HomeScreen.java)
+- *Presentation designer*
 
 #### 4. Chu Anh Lợi - 20215208 (Email: loi.ca215208@sis.hust.edu.vn)
-- Package [`sourcecode/src/visualso/component`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/component) (50%)
-- Package [`sourcecode/src/visualso/exception`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/exception)
-- Class [`sourcecode/src/visualso/util/DataUtils.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/util/DataUtils.java)
+- Package [`src/screen/mainMenuApplication`](https://github.com/minhngt62/OOP.DSAI.20212.16/tree/main/sourcecode/src/visualso/component)
+- Class [`src/sorting/RadixSort.java`](https://github.com/minhngt62/OOP.DSAI.20212.16/blob/main/sourcecode/src/visualso/util/DataUtils.java)
 - *Presentation designer*
-- *Pull request feedback: Handle possible exceptions of new features.*
 
 ---
 
