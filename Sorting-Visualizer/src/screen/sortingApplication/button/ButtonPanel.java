@@ -14,7 +14,7 @@ public class ButtonPanel extends JPanel
 	private static final int BUTTON_WIDTH = 200, BUTTON_HEIGHT = 80;
 	private JLabel[] buttons;
 	private SortButtonListener listener;
-	private int number = 7;
+	private int number = 5;
 
 	public ButtonPanel(SortButtonListener listener)
 	{
@@ -27,18 +27,18 @@ public class ButtonPanel extends JPanel
 			buttons[i] = new JLabel();
 
 		initButtons(buttons[0], "create_button", 0);
-		initButtons(buttons[1], "bubble_button", 1);
-		initButtons(buttons[2], "selection_button", 2);
-		initButtons(buttons[3], "radix_button", 3);
-		initButtons(buttons[4], "counting_button", 4);
-		initButtons(buttons[5], "merge_button", 5);
-		initBackButton(buttons[6], 6);
+//		initButtons(buttons[1], "bubble_button", 1);
+//		initButtons(buttons[2], "selection_button", 2);
+		initButtons(buttons[1], "radix_button", 1);
+		initButtons(buttons[2], "counting_button", 2);
+		initButtons(buttons[3], "merge_button", 3);
+		initBackButton(buttons[4], 4);
 
 		// add button to the panel
 		setLayout(null);
 		for (int i = 0; i < buttons.length; i++)
 		{
-			buttons[i].setBounds(20, 20 + (BUTTON_HEIGHT + 5) * i, BUTTON_WIDTH, BUTTON_HEIGHT);
+			buttons[i].setBounds(20, 20 + (BUTTON_HEIGHT + 10) * i, BUTTON_WIDTH, BUTTON_HEIGHT);
 			add(buttons[i]);
 		}
 	}
